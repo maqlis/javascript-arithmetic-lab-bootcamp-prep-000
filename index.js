@@ -18,3 +18,7 @@ function dec(a){
   a-=1;
   return a
 }
+function makeInt(n){
+  n=parseInt(n, 10)
+  return n
+}
